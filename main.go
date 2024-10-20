@@ -1,7 +1,7 @@
-// StructToMapConverter takes a value of any type and converts it into a map[string]interface{}.
+// Mapify takes a value of any type and converts it into a map[string]interface{}.
 // It uses JSON marshaling and unmarshaling to perform the conversion.
 // It returns the converted map[string]interface{} and an error if there was any issue during the conversion process.
-func StructToMapConverter(v any) (map[string]any, error) {
+func Mapify(v any) (map[string]any, error) {
 
 	// Initialize an empty map to store the converted data
 	var data map[string]any
